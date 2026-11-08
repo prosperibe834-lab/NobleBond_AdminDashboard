@@ -1,0 +1,205 @@
+/* NobleBond Admin Global Design System & Variables */
+
+:root,
+html[data-theme="light"] {
+  --bg-app: #FFF8F6;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F8EDF1;
+  --bg-card: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  --bg-header: rgba(255, 248, 246, 0.88);
+  --bg-hover: rgba(193, 47, 102, 0.06);
+  --bg-active: rgba(193, 47, 102, 0.12);
+  
+  --primary: #C12F66;
+  --primary-hover: #A82455;
+  --primary-glow: rgba(193, 47, 102, 0.22);
+  --primary-text: #FFFFFF;
+
+  --text-main: #291B27;
+  --text-secondary: #766674;
+  --text-muted: #9E8E9C;
+
+  --accent-lavender: #7C68E8;
+  --accent-lavender-bg: rgba(124, 104, 232, 0.1);
+  --accent-champagne: #B58B42;
+  --accent-champagne-bg: rgba(181, 139, 66, 0.12);
+
+  --status-success: #14845F;
+  --status-success-bg: rgba(20, 132, 95, 0.1);
+  --status-warning: #D97706;
+  --status-warning-bg: rgba(217, 119, 6, 0.1);
+  --status-error: #C9364F;
+  --status-error-bg: rgba(201, 54, 79, 0.1);
+  --status-info: #2563EB;
+  --status-info-bg: rgba(37, 99, 235, 0.1);
+
+  --border: #E8DDE3;
+  --border-light: #F2E8EE;
+  --border-focus: #C12F66;
+
+  --shadow-sm: 0 1px 3px rgba(41, 27, 39, 0.05);
+  --shadow-md: 0 4px 16px rgba(41, 27, 39, 0.07);
+  --shadow-lg: 0 12px 32px rgba(41, 27, 39, 0.1);
+  --shadow-glow: 0 0 20px rgba(193, 47, 102, 0.25);
+
+  --skeleton-base: #EFE6EC;
+  --skeleton-highlight: #FAF2F7;
+}
+
+html[data-theme="dark"] {
+  --bg-app: #151019;
+  --bg-surface: #211824;
+  --bg-surface-elevated: #2B2030;
+  --bg-card: #211824;
+  --bg-sidebar: #1C1420;
+  --bg-header: rgba(21, 16, 25, 0.88);
+  --bg-hover: rgba(241, 91, 141, 0.08);
+  --bg-active: rgba(241, 91, 141, 0.16);
+
+  --primary: #F15B8D;
+  --primary-hover: #FF75A4;
+  --primary-glow: rgba(241, 91, 141, 0.3);
+  --primary-text: #FFFFFF;
+
+  --text-main: #FFF8FC;
+  --text-secondary: #C7B9C7;
+  --text-muted: #8E7E91;
+
+  --accent-lavender: #B8A8FF;
+  --accent-lavender-bg: rgba(184, 168, 255, 0.12);
+  --accent-champagne: #E5C57B;
+  --accent-champagne-bg: rgba(229, 197, 123, 0.12);
+
+  --status-success: #46D6A1;
+  --status-success-bg: rgba(70, 214, 161, 0.12);
+  --status-warning: #FBBF24;
+  --status-warning-bg: rgba(251, 191, 36, 0.12);
+  --status-error: #FF7080;
+  --status-error-bg: rgba(255, 112, 128, 0.15);
+  --status-info: #60A5FA;
+  --status-info-bg: rgba(96, 165, 250, 0.15);
+
+  --border: #403244;
+  --border-light: #2F2333;
+  --border-focus: #F15B8D;
+
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 24px rgba(241, 91, 141, 0.35);
+
+  --skeleton-base: #281D2B;
+  --skeleton-highlight: #36283A;
+}
+
+/* Global Reset & Base Typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  transition: background-color 0.25s ease, color 0.25s ease;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulseLive {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease forwards;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-pulse-live {
+  animation: pulseLive 1.8s infinite ease-in-out;
+}
+
