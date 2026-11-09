@@ -76,7 +76,7 @@ export const ReportsModerationPage: React.FC = () => {
       <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
         {filtered.length === 0 ? (
           <div style={{ padding: "40px", textAlign: "center", backgroundColor: "var(--bg-card)", border: "1px solid var(--border)", borderRadius: "16px", color: "var(--text-secondary)" }}>
-            🎉 No reports matching this priority tier!
+            No reports matching this priority tier!
           </div>
         ) : (
           filtered.map((rep) => (

@@ -80,7 +80,7 @@ export const WalletManagementPage: React.FC = () => {
             <Coins size={18} color="var(--accent-champagne)" />
           </div>
           <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--text-main)", marginTop: "8px" }}>
-            🪙 12,480,000 Coins
+            12,480,000 Coins
           </div>
           <p style={{ fontSize: "12px", color: "var(--text-secondary)", marginTop: "4px" }}>
             Purchased via coin packages. Exclusively used for live-streaming gifts to broadcasters.
@@ -135,9 +135,9 @@ export const WalletManagementPage: React.FC = () => {
           <div style={{ display: "flex", gap: "8px" }}>
             {[
               { id: "all", label: "All Products" },
-              { id: "coins", label: "🪙 Gift Coins" },
-              { id: "points", label: "✨ Points" },
-              { id: "premium", label: "👑 Premium" },
+              { id: "coins", label: "Gift Coins" },
+              { id: "points", label: "Connection Points" },
+              { id: "premium", label: "Premium Tiers" },
             ].map((tab) => (
               <button
                 key={tab.id}

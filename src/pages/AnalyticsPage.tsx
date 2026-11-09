@@ -56,7 +56,7 @@ export const AnalyticsPage: React.FC = () => {
           <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
             <div>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px", fontWeight: 600, marginBottom: "6px" }}>
-                <span>👑 NobleBond Premium Memberships</span>
+                <span>NobleBond Premium Memberships</span>
                 <span style={{ color: "var(--primary)" }}>$312,450 (81.2%)</span>
               </div>
               <div style={{ width: "100%", height: "10px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "999px", overflow: "hidden" }}>
@@ -66,7 +66,7 @@ export const AnalyticsPage: React.FC = () => {
 
             <div>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px", fontWeight: 600, marginBottom: "6px" }}>
-                <span>🪙 Live Stream Gift Coin Store</span>
+                <span>Live Stream Gift Coin Store</span>
                 <span style={{ color: "var(--accent-champagne)" }}>$72,500 (18.8%)</span>
               </div>
               <div style={{ width: "100%", height: "10px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "999px", overflow: "hidden" }}>

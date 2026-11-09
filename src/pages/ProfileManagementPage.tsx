@@ -91,7 +91,7 @@ export const ProfileManagementPage: React.FC = () => {
 
         {photoQueue.length === 0 ? (
           <div style={{ padding: "40px", textAlign: "center", backgroundColor: "var(--bg-card)", border: "1px solid var(--border)", borderRadius: "16px", color: "var(--text-secondary)" }}>
-            🎉 All pending photos have been reviewed!
+            All pending photos have been reviewed!
           </div>
         ) : (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "18px" }}>

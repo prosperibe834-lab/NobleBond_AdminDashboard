@@ -62,7 +62,7 @@ export const LiveManagementPage: React.FC = () => {
         <div style={{ padding: "18px", backgroundColor: "var(--bg-card)", border: "1px solid var(--border)", borderRadius: "14px" }}>
           <div style={{ fontSize: "12.5px", color: "var(--text-secondary)", fontWeight: 600 }}>Gift Coins Transacted</div>
           <div style={{ fontSize: "24px", fontWeight: 800, color: "var(--accent-champagne)", marginTop: "4px" }}>
-            🪙 40,100 Coins
+            40,100 Coins
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ export const LiveManagementPage: React.FC = () => {
               </div>
 
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: "12px", color: "var(--text-secondary)" }}>
-                <span>Coins Earned: <strong style={{ color: "var(--accent-champagne)" }}>🪙 {stream.coinsEarned.toLocaleString()}</strong></span>
+                <span>Coins Earned: <strong style={{ color: "var(--accent-champagne)" }}>{stream.coinsEarned.toLocaleString()} Coins</strong></span>
                 <span>Safety Score: <strong style={{ color: "var(--status-success)" }}>{stream.moderationScore}%</strong></span>
               </div>
 

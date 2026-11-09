@@ -292,7 +292,7 @@ export const MOCK_REPORTS: ModerationReport[] = [
 export const MOCK_LIVE_BROADCASTS: LiveBroadcastItem[] = [
   {
     id: "live_401",
-    title: "Acoustic vibes & Sunday Q&A ✨",
+    title: "Acoustic vibes & Sunday Q&A",
     hostName: "Emily Carter",
     hostAvatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
     viewerCount: 2420,
@@ -305,7 +305,7 @@ export const MOCK_LIVE_BROADCASTS: LiveBroadcastItem[] = [
   },
   {
     id: "live_402",
-    title: "Late night talks & deep connections 🌙",
+    title: "Late night talks & deep connections",
     hostName: "Amara Bliss",
     hostAvatar: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
     viewerCount: 1840,
@@ -318,7 +318,7 @@ export const MOCK_LIVE_BROADCASTS: LiveBroadcastItem[] = [
   },
   {
     id: "live_403",
-    title: "Weekend energy only 🔥 Live from Lagos",
+    title: "Weekend energy only - Live from Lagos",
     hostName: "David King",
     hostAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
     viewerCount: 960,

@@ -190,13 +190,13 @@ export const UserManagementPage: React.FC = () => {
                   </td>
                   <td style={{ padding: "12px 16px" }}>
                     {user.isPremium ? (
-                      <Badge variant="primary">👑 Premium</Badge>
+                      <Badge variant="primary">Premium</Badge>
                     ) : (
                       <Badge variant="neutral">Free</Badge>
                     )}
                   </td>
                   <td style={{ padding: "12px 16px", fontWeight: 700, color: "var(--accent-champagne)" }}>
-                    🪙 {user.giftCoins.toLocaleString()}
+                    {user.giftCoins.toLocaleString()} Coins
                   </td>
                   <td style={{ padding: "12px 16px", fontWeight: 700, color: "var(--status-success)" }}>
                     ✨ {user.connectionPoints} Pts
