@@ -2360,7 +2360,7 @@ export function filterAndSortProfiles(
 
   // Sorting
   result.sort((a, b) => {
-    let comparison = 0;
+    let comparison: number;
     switch (sort.field) {
       case "fullName":
         comparison = a.fullName.localeCompare(b.fullName);

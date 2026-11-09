@@ -84,6 +84,7 @@ export interface IdentityVerificationRecord {
   documentBackUrl?: string;
   reviewedAt?: string;
   reviewedBy?: string;
+  notes?: string;
   quarantineNotes?: string;
   expiryDate?: string;
 }
