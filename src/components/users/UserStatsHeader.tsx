@@ -246,3 +246,4 @@ export const UserStatsHeader: React.FC<UserStatsHeaderProps> = ({
     </div>
   );
 };
+

@@ -198,3 +198,4 @@ export interface ColumnVisibilityMatchesState {
   reports: boolean;
   actions: boolean;
 }
+

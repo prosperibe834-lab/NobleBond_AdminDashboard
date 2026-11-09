@@ -526,3 +526,4 @@ export const ProfileAnalyticsSection: React.FC<ProfileAnalyticsSectionProps> = (
     </div>
   );
 };
+

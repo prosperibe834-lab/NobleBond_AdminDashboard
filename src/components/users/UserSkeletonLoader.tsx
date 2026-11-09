@@ -86,3 +86,4 @@ export const UserChartsSkeleton: React.FC = () => {
     </div>
   );
 };
+

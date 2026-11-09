@@ -368,3 +368,4 @@ const ReportResolutionForm: React.FC<ReportResolutionFormProps> = ({
     </div>
   );
 };
+

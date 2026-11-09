@@ -287,3 +287,4 @@ export const ProfileMobileCards: React.FC<ProfileMobileCardsProps> = ({
     </div>
   );
 };
+

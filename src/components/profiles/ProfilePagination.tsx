@@ -154,3 +154,4 @@ export const ProfilePagination: React.FC<ProfilePaginationProps> = ({
     </div>
   );
 };
+

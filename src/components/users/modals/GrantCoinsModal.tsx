@@ -355,3 +355,4 @@ export const GrantCoinsModal: React.FC<GrantCoinsModalProps> = ({
     </div>
   );
 };
+

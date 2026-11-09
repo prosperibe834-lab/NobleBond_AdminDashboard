@@ -66,3 +66,4 @@ export const ProfileSkeletonLoader: React.FC = () => {
     </div>
   );
 };
+

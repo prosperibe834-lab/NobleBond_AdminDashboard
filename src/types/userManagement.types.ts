@@ -365,3 +365,4 @@ export interface UserStatsKpis {
   totalConnectionPoints: number;
   growthPercentage: number;
 }
+

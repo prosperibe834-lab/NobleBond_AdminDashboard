@@ -355,3 +355,4 @@ export const GrantPointsModal: React.FC<GrantPointsModalProps> = ({
     </div>
   );
 };
+

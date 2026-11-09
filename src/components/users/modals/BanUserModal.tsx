@@ -212,3 +212,4 @@ export const BanUserModal: React.FC<BanUserModalProps> = ({
     </div>
   );
 };
+

@@ -844,7 +844,7 @@ export function calculateKPIs(
     pendingIncomingLikes,
 
     totalSuperLikes,
-    superLikesThisPeriod,
+    superLikesThisPeriod: superLikesInPeriod,
 
     totalUnmatches,
     unmatchesThisPeriod: unmatchesInPeriod.length,

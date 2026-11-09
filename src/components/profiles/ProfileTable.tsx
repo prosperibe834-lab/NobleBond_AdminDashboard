@@ -836,3 +836,4 @@ export const ProfileTable: React.FC<ProfileTableProps> = ({
     </div>
   );
 };
+
