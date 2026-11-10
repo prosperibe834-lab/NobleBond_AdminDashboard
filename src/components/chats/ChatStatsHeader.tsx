@@ -256,3 +256,4 @@ export const ChatStatsHeader: React.FC<ChatStatsHeaderProps> = ({
     </div>
   );
 };
+

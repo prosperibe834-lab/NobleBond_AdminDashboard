@@ -11,7 +11,6 @@ import {
   AlertTriangle,
   UserX,
   FileText,
-  Activity,
   Lock,
 } from "lucide-react";
 import type {

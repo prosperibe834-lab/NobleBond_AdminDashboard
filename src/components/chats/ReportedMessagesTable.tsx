@@ -506,3 +506,4 @@ export const ReportedMessagesTable: React.FC<ReportedMessagesTableProps> = ({
     </div>
   );
 };
+

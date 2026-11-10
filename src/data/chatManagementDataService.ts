@@ -679,6 +679,7 @@ export function calculateChatKPIs(
   restrictions: MessagingRestrictionRecord[],
   _dateRange: DateRangePreset
 ): ChatStatsKpis {
+  void _dateRange;
   const totalConversations = conversations.length;
   const activeConversations = conversations.filter((c) => c.status === "active").length;
   const totalMessagesSent = conversations.reduce((acc, c) => acc + c.totalMessages, 0);

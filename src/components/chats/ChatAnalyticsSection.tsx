@@ -412,3 +412,4 @@ export const ChatAnalyticsSection: React.FC<ChatAnalyticsSectionProps> = ({
     </div>
   );
 };
+

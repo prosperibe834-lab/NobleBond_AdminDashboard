@@ -236,3 +236,4 @@ export interface ChatSortCriteria {
   field: ChatSortField;
   direction: "asc" | "desc";
 }
+
